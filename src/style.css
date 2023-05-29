@@ -1,1 +1,44 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: green;
+}
+
+.card {
+  display: inline-block;
+  background: white;
+  margin: auto;
+  border-radius: 8px;
+  padding: 7px;
+  padding-top: 150px;
+  height: 400px;
+  width: 250px;
+  position: relative;
+}
+
+.pinta-superior {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 100px;
+}
+
+.pinta-inferior {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-size: 100px;
+}
+
+.numero {
+  font-size: 50px;
+}
+
+.rojo {
+  color: red;
+}
+
+.negro {
+  color: black;
+}
+https: ; //github.com/dwexman/Generador-Carta-Aleatorio.git
